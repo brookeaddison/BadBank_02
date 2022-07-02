@@ -76,6 +76,7 @@ function validatePassword (password) {
 
   return (
     <Card
+      
       bgcolor="secondary"
       header="Create Account"
       status={status}

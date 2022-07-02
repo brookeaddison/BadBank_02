@@ -45,4 +45,3 @@ function Spa() {
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<Spa/>);
-
