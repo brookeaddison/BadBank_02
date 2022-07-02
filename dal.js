@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
-const url         = 'mongodb+srv://mongo01:mongo01@cluster0.jqttrtw.mongodb.net/test';
-//const url         = 'mongodb+srv://mongo01:mongo01@cluster0.jqttrtw.mongodb.net/?retryWrites=true&w=majority';
+//const url         = 'mongodb+srv://mongo01:mongo01@cluster0.jqttrtw.mongodb.net/test';
+const url         = 'mongodb+srv://mongo01:mongo01@cluster0.jqttrtw.mongodb.net/?retryWrites=true&w=majority';
 var   db          = null;
 var   client      = new MongoClient(url);
 
