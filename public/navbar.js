@@ -68,7 +68,8 @@ function NavBar() {
           )}
         </ul>
       </div>
-      <div style={{ marginLeft: "auto" }} className="align-self-center">
+      <div style={{ marginLeft: "auto" }} 
+      className="align-self-center text-light">
         {ctx.currentUser != -1 && ctx.users[ctx.currentUser].email}
       </div>
     </nav>
